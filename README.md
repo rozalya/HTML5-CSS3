@@ -1,1 +1,1 @@
-# HTML5-CSS3
+Web Fundamentals - HTML5 course in Softuni
