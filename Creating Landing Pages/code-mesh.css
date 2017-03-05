@@ -1,0 +1,374 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    min-height: 600px;
+    background: linear-gradient(
+            rgba(77,80,89, 0.9),
+            rgba(77,80,89, 0.9)),
+    url("img/header-bg.png");
+    background-size: cover;
+}
+
+nav{
+    float: right;
+    margin-top: -60px;
+    font-family: Roboto;
+    text-transform: uppercase;
+
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-top: -60px;
+    font-family: Roboto;
+    text-transform: uppercase;
+    padding: 10px 20px 10px 10px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+nav ul li a:hover{
+   color: #fa692e;
+}
+.site-header div h2{
+    display: inline-block;
+    list-style: none;
+    font-family: Roboto;
+    text-transform: uppercase;
+    padding: 30px 20px 10px 10px;
+    font-size: 14px;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+
+.titles-section .h1{
+    color: #FFFFFF;
+   font-weight: 100;
+    font-size: 28px;
+
+
+
+}
+
+
+.titles-section{
+
+   text-align: center;
+    padding: 165px;
+}
+.articles{
+    text-align: center;
+}
+.articles p{
+    padding-top: 40px;
+}
+
+
+.articles article{
+    display: inline-block;
+   padding-left: 10px;
+    width: 24%;
+    height: 210px;
+    vertical-align: bottom;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+.articles article:hover{
+    cursor: pointer;
+    border-bottom: solid #fa692e;
+    border-width: thick;
+}
+.titles-section .play-icon{
+   width: 80px;
+
+}
+.titles-section div{
+    width: 643px;
+    display: inline-block;
+    padding: 20px;
+    text-align: left;
+}
+.play-icon a{
+    color:#fa692e;
+}
+
+.presentation{
+
+    width: 100%;
+    display: inline-block;
+  text-align: center;
+
+
+}
+
+.presentation article{
+
+    display: inline-block;
+
+   vertical-align: middle;
+    margin-left: 30px;
+}
+
+.presentation-name{
+    text-align: right;
+    width: 300px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+.presentation .article{
+    width: 350px;
+    text-align: left;
+    width: 379px;
+}
+
+.presentation .articles-pictue{
+    width: 300px;
+    height: 400px;
+}
+
+.presentation .articles-pictue img{
+    height: 330px;
+    padding-top: 29px;
+}
+.author{
+    font-size: 12px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+
+.presentation .article-end{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 30px;
+    border-top: #3c3f49 solid;
+    border-width: thin;
+}
+
+ .empty{
+    width: 343px;
+    height: 390px;
+    position: absolute;
+    margin-top: -363px;
+    z-index: 0;
+    left: 826px;
+    background: rgba(250, 105, 46, 0.6);
+}
+
+.presentation{
+    border-bottom: #3c3f49 solid;
+    border-width: 1px;
+}
+
+.Schedule{
+   background-color:  #3C3E4A;
+    color: #FFFFFF;
+
+}
+
+.Schedule ul{
+    margin-top: 100px;
+
+}
+
+.Schedule ul li{
+    display: inline-block;
+    text-align: center;
+
+    width: 48%;
+margin-bottom: 30px;
+}
+.Schedule ul li p{
+    width: 171px;
+    display: inline-block;
+    text-align: left;
+}
+
+.Schedule ul li i, p{
+    position: relative;
+    left: -70px;
+    padding: 10px;
+
+}
+
+.Schedule .time-activity{
+    text-transform: capitalize;
+    width: 230px;
+
+}
+
+
+.Schedule ul li i{
+    border-radius: 50%;
+    background: #fa692e;
+    width: 20px;
+
+}
+
+.time{
+    font-weight: bold;
+
+    width: 30px;
+}
+
+.Schedule ul li p>.time{
+    width: 115px;
+}
+.Schedule-name{
+    padding: 40px;
+    width: 400px;
+}
+
+.Speakers figure{
+    display: inline-block;
+    height: 317px;
+    width: 220px;
+    margin-right: 5px;
+    margin-left: 30px;
+
+    box-sizing: content-box;
+    box-shadow: 10px 10px 15px -5px rgba(0, 0, 0, 0.25);
+}
+.Speakers figure:nth-child(1n){
+    margin-left: 90px;
+}
+
+
+.Speakers figure img {
+    display: inline-block;
+    width: 220px;
+    height: 250px;
+
+}
+
+.Speakers .name{
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.Speakers .name i:hover{
+    cursor: pointer;
+   color: #fa692e;
+}
+
+.Speakers .work-area{
+    text-transform: uppercase;
+    line-height: 45px;
+    color: #D4C5C0;
+    text-shadow:5px 5px 5px #FFFAF6;
+}
+
+.Speakers h1{
+    width: 482px;
+    margin-top: 50px;
+    margin-left: 105px;
+}
+
+.Speakers h6{
+    width: 522px;
+    font-size: 12px;
+    font-weight: 100;
+    position: relative;
+    left: 650px;
+    top: -45px;
+
+
+}
+
+.special-events {
+  margin: 0 auto;
+    background-color: #3C3E4A;
+    height: 650px;
+    color: #FFFFFF;
+
+}
+
+.border{
+    width: 600px;
+    border: solid #FFFFFF;
+    border-width: thin;
+    text-align: center;
+    position: relative;
+    top: 100px;
+    left: 130px;
+    padding: 100px 250px 100px 250px;
+
+}
+
+.border p{
+    width: 514px;
+    position: relative;
+    left: 45px;
+}
+
+button{
+    background-color: #000000;
+    border-radius: 50px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    padding: 5px 20px 5px 20px;
+    border-color: #000000;
+    position: relative;
+    left: 120px;
+}
+button:hover{
+    cursor: pointer;
+}
+.email:first-letter{
+    text-transform: capitalize;
+}
+
+.email{
+    font-size: 18px;
+    width: 155px;
+    padding-right: 43px;
+    border-bottom: 3px solid  #fa692e;
+    position: relative;
+    top: 30px;
+    left: 100px;
+
+}
+
+.special-events h1{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+footer{
+    background-color: #292A2F;
+    height: 100%;
+    text-align: center;
+    color: #808185;
+    text-transform: uppercase;
+    margin-top: -15px;
+}
+
+footer p{
+    text-align: left;
+}
+
+footer p+p{
+       width: 250px;
+    display: inline-block;
+
+    position: relative;
+    left: 530px;
+}
+
