@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Extreme Sports</title>
+    <link rel="stylesheet" href="extreme-reservation.css">
+</head>
+<body>
+<main>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Paragliding</a>
+            </li>
+            <li>
+                <a href="#">Skydiving</a>
+            </li>
+            <li>
+                <a href="#">Climbing</a>
+            </li>
+            <li>
+                <a href="#">About Us</a>
+            </li>
+        </ul>
+    </nav>
+    <form class="#">
+        <div class="personalInfo">
+            <fieldset class="info">
+                <legend>Personal Info</legend>
+                <img src="img/user1.png">
+
+             <input type="text" name="Name" placeholder="Enter your full name" />
+
+                </br>
+                <img src="img/email.png">
+               <input type="text" name="Email" placeholder="Enter a valid e-mail"/>
+
+                </br>
+                <img src="img/phone.png">
+                <input type="text" name="Tel" placeholder="Enter a phone number"/>
+
+                </br>
+            </fieldset>
+
+        </div>
+        <div class="flightInfo">
+            <fieldset class="flinfo">
+                <legend>Flight Info</legend>
+            <p>Are flying for first time?</p>
+            <input type="radio" name="city" value="1" /> Yes
+            <input type="radio" name="city" value="2" /> No
+
+
+            <p>Choose Destination</p>
+            <select name="destination" class="flight">
+                <optgroup>
+                <option value="destination 1">Sofia</option>
+                <option value="destination 2" selected="selected">Dobrostan</option>
+                <option value="destination 3">Bourgas</option>
+                <option value="destination 3">Nepal</option>
+                <option value="destination 3">Turkey</option>
+                <option value="destination 3">France</option>
+                </optgroup>
+            </select>
+                <p>Choose Date</p>
+                <input type="date" class="flight">
+
+            </fieldset>
+      </div>
+        <div class="btn">
+        <button>Clear</button>
+        <button>Send</button>
+        </div>
+    </form>
+</main>
+
+</body>
+</html>

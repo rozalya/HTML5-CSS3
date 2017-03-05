@@ -1,0 +1,20 @@
+fieldset{
+    width: 300px;
+    margin: 0 auto;
+    color:  #2D2D2D;
+}
+
+textarea{
+    height: 151px;
+    width: 166px;
+}
+
+form, input,textarea {
+    box-sizing: border-box;
+}
+
+label{
+    color: #2D2D2D;
+    font-size: 15px;
+    word-wrap: break-word;
+}
