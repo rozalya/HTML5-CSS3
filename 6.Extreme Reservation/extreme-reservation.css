@@ -1,0 +1,162 @@
+body{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    font-family: "Arial", "Helvetica", sans-serif;
+}
+main{
+    width: 800px;
+    margin: 0 auto;
+
+    position: relative;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin-right: 37px;
+    color: #266BA3;
+}
+
+nav ul li a:hover{
+    background-color: #6DA7CD;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius:10px;
+}
+
+ul li:first-child a:before{
+    content: url("img/paraglider-icon.png");
+    position: relative;
+    top:10px;
+    right: 7px;
+}
+
+ul li:nth-child(2) a:before{
+    content: url("img/sky-diver.png");
+    position: relative;
+    top:12px;
+    right: 7px;
+}
+
+ul li:nth-child(3) a:before{
+    content: url("img/climbing.png");
+    position: relative;
+    top:12px;
+    right: 7px;
+}
+
+ul li:nth-child(4) a:before{
+    content: url("img/about-us.png");
+    position: relative;
+    top:15px;
+    right: 7px;
+}
+
+.personalInfo, .flightInfo{
+    width: 45%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.info{
+    border-radius: 20px;
+    border-color:#266BA3;
+    color: #266BA3;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+.flinfo{
+    border-radius: 20px;
+    border-color:#266BA3;
+    color: #266BA3;
+    padding-top: 67px;
+    padding-bottom: 67px;
+}
+
+.personalInfo input{
+    width: 90%;
+    border-radius: 20px;
+    border-color: #6DA7CD;
+    height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    background: rgba(243, 237, 237, 0.5);
+
+}
+
+.btn{
+    text-align: right;
+}
+
+
+.flightInfo .flight {
+    width: 90%;
+    border-radius: 20px;
+    border-color: #6DA7CD;
+    color: #266BA3;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 10px;
+    position: relative;
+    background: rgba(243, 237, 237, 0.5);
+}
+
+::-webkit-input-placeholder {
+    color: #266BA3;
+    text-align: center;
+    font-size: 14px;
+
+}
+
+
+button:first-of-type{
+    font-size: 16px;
+    border-radius: 20px;
+    background: transparent;
+    padding: 10px 15px 10px 15px;
+    border-color: red;
+    color: red;
+}
+button:first-of-type:hover{
+    background-color: red;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+
+
+button:nth-of-type(2){
+    font-size: 16px;
+    border-radius: 20px;
+    background: transparent;
+    padding: 10px 15px 10px 15px;
+    border-color: green;
+    color: green;
+}
+button:nth-of-type(2):hover {
+    background-color: green;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+img{
+    position: relative;
+    left: 37px;
+    top:5px;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,152 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+body{
+    background-color: #EEEEEE;
+}
+main{
+    width: 800px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Tahoma, Helvetica, sans-serif;
+
+}
+
+h1{
+    font-size: 24px;
+}
+
+p{
+    font-size: 14px;
+}
+header{
+    padding: 22px 46px 12px 46px;
+    border-bottom: solid 2px #EEEEEE;
+}
+
+.newAccount, .login{
+    display: inline-block;
+    vertical-align: top;
+    width: 35%;
+
+    padding: 54px;
+    text-align: left;
+    padding-top: 10px;
+    position: relative;
+}
+input{
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+
+label{
+    font-size: 12px;
+}
+
+.check{
+    width: 15px;
+    margin: 5px;
+    height: 15px;
+}
+
+.newAccount .agreement{
+    position: relative;
+    top: -36px;
+    left: 27px;
+    font-size: 13px;
+    color: #878382;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+}
+
+button{
+    padding: 10px 35px 10px 35px;
+    border-radius: 5px;
+    color: #000;
+
+    font-weight: bold;
+    position: relative;
+    top: -34px;
+}
+
+
+.newAccount div:first-of-type::after{
+    font-family: FontAwesome, serif;
+    content:"\f00c";
+    position:absolute;
+    top: 85px;
+    left: 324px;
+    background-color: #00FF01;
+    color: #ffffff;
+    padding: 2px;
+}
+
+.newAccount div:nth-of-type(2)::after{
+    font-family: FontAwesome, serif;
+    content:"\f00c";
+    position:absolute;
+    top: 133px;
+    left: 324px;
+    background-color: #00FF01;
+    color: #ffffff;
+    padding: 2px;
+}
+
+.newAccount div:nth-of-type(3)::after{
+    font-family: FontAwesome, serif;
+    content:"\f00d";
+    position:absolute;
+    top: 180px;
+    left: 324px;
+    background-color: #FE0500;
+    color: #ffffff;
+    padding: 2px;
+}
+
+.newAccount div:nth-of-type(4)::after{
+    font-family: FontAwesome, serif;
+    content:"\f00d";
+    position:absolute;
+    top: 230px;
+    left: 324px;
+    background-color: #FE0500;
+    color: #ffffff;
+    padding: 2px;
+}
+
+.login button{
+    position: relative;
+    top: 12px;
+
+}
+
+.login  div:first-of-type::after {
+    font-family: FontAwesome, serif;
+    content: "\f00c";
+    position: absolute;
+    top: 85px;
+    right: 45px;
+    background-color: #00FF01;
+    color: #ffffff;
+    padding: 2px;
+}
+
+.login div:nth-of-type(2)::after{
+    font-family: FontAwesome, serif;
+    content:"\f00d";
+    position:absolute;
+    top: 133px;
+    right: 45px;
+    background-color: #FE0500;
+    color: #ffffff;
+    padding: 2px;
+}
+
+a {
+    font-size: 13px;
+    color: #BA8693;
+    text-decoration: none;
+}
