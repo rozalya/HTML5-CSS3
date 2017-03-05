@@ -1,0 +1,86 @@
+@import url("https://db.onlinewebfonts.com/c/cd0381aa3322dff4babd137f03829c8c?family=Tahoma");
+
+body{
+    background-color: #CACACA;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 15px;
+    color: #191923;
+}
+
+nav{
+    width: 790px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    margin: 0 auto;
+    position: relative;
+    top:30px;
+
+}
+
+nav ul li{
+
+    list-style: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-align: left;
+    color: #191923;
+}
+nav ul li:nth-child(1) a{
+    text-transform: capitalize;
+    color: #73395D;
+}
+
+
+nav ul li:nth-child(2){
+    text-transform: uppercase;
+}
+
+nav ul li:nth-child(3){
+    text-transform: uppercase;
+}
+
+nav ul li a:hover{
+    color: #73395D;
+}
+
+img {
+    width: 200px;
+    height: 140px;
+}
+
+section ul li {
+    display: inline-block;
+    vertical-align: top;
+    list-style: none;
+    width: 200px;
+    height: 290px;
+    background-color: #ffffff;
+    margin-right: 5px;
+}
+section ul li a {
+    text-decoration: none;
+}
+
+section{
+    margin-top: 50px;
+
+}
+
+main{
+    width: 900px;
+    margin: 0 auto;
+}
+h6{
+    text-transform: uppercase;
+    color:#191923;
+    font-size: 12px;
+}
+
+figcaption{
+    color:#191923;
+    padding: 0 5px 0 5px;
+}

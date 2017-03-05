@@ -1,0 +1,67 @@
+@import url("https://www.google.com/fonts#UsePlace:use/Collection:Vollkorn");
+
+main{
+    width: 1000px;
+    height: 650px;
+
+    margin: 0 auto;
+
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: #798696;
+    text-transform: uppercase;
+}
+
+article{
+    width: 274px;
+    border: solid #EBEFF2;
+    display: inline-block;
+    vertical-align: top;
+    height: 530px;
+    position: relative;
+
+}
+
+h2{
+    text-transform: capitalize;
+    font-family: Vollkorn, serif;
+    background-color: #EBEFF2;
+    padding: 35px 10px 35px 10px;
+    width: 255px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 500;
+    color: #798696;
+}
+
+div{
+    font-size: 60px;
+    text-align: center;
+    font-family: Vollkorn, serif;
+    padding-bottom: 20px;
+    color: #798696;
+}
+
+p {
+    font-size: 16px;
+    font-family: Tahoma, sans-serif;
+    line-height: 30px;
+    border-bottom: solid #EBEFF2;
+    padding-left: 10px;
+    color: #798696;
+}
+
+button{
+    position: absolute;
+    right: 35px;
+    bottom:   10px;
+    width: 230px;
+    height: 50px;
+    border-radius: 10px;
+    color: #798696;
+
+}
+

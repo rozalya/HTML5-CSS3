@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Comfortaa");
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F4F5F7;
+}
+
+aside{
+    float: left;
+    text-align: center;
+    height:1000px;
+    background-color: #ffffff;
+}
+
+nav h1{
+    font-family: "Comfortaa";
+    font-size: 50px;
+}
+
+a{
+    font-family: "Comfortaa";
+    text-decoration: none;
+    color: #b1bfc6;
+    letter-spacing: 2px;
+    margin-right: 56px;
+}
+nav ul li{
+    list-style: none;
+    line-height: 30px;
+    text-align: left;
+    font-size: 14px;
+    padding: 10px 10px 10px 10px;
+
+}
+.user figcaption{
+    text-transform: uppercase;
+    color: #91a5af;
+}
+
+.user img{
+    width: 90px;
+    border-radius: 50%;
+
+}
+figure, ul{
+    text-transform: uppercase;
+    color: #91a5af;
+
+}
+main {
+    float: left;
+     padding: 0 120px 100px 0;
+}
+
+.row1 ul li {
+    list-style: none;
+    display: inline-block;
+    width: 250px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding-bottom: 20px;
+    box-shadow: 1px 24px 43px #333;
+    margin-right: 25px;
+}
+
+.row1 figure img{
+    position: relative;
+    width: 250px;
+    height: 167px;
+    right: 40px;
+    top:10px;
+
+}
+
+figcaption{
+    text-transform: capitalize;
+    color: #333;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    margin: 10px 0 -3px -28px;
+}
+
+main h1{
+    padding: 24px 10px 0 45px;
+    font-family: Comfortaa;
+}
+
+main h1 h1 {
+    display: inline-block;
+}
+
+main div{
+    background-color: #ff7739;
+    padding: 15px 32px 15px 20px;
+    width: 100px;
+    float: right;
+    margin-top: -60px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+
+}
+.status {
+    background-color: #91a5af;
+    padding: 10px 0px 10px 0px;
+    width: 100px;
+    float: right;
+    margin-top: -60px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    z-index: 4;
+    bottom: 350px;
+    left: 270px;
+}
+.status1{
+    background-color: #68BB69;
+    padding: 10px 0px 10px 0px;
+    width: 100px;
+    float: right;
+    margin-top: -60px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    z-index: 4;
+    bottom: -40px;
+    left: 270px;
+
+}
+.listed{
+    background-color: #68BB69;
+    padding: 10px 0px 10px 0px;
+    width: 100px;
+    float: right;
+    margin-top: -60px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    z-index: 4;
+    bottom: 350px;
+    left: 550px;
+
+}
+.listed1{
+    background-color: #68BB69;
+    padding: 10px 0px 10px 0px;
+    width: 100px;
+    float: right;
+    margin-top: -60px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    z-index: 4;
+    bottom: -40px;
+    left: 550px;
+
+}
+
+.draft{
+    background-color: #384850;
+    padding: 10px 0px 10px 0px;
+    width: 100px;
+    float: right;
+    margin-top: -60px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    z-index: 4;
+    bottom: 350px;
+    left: 830px;
+
+}
+.draft1{
+    background-color: #384850;
+    padding: 10px 0px 10px 0px;
+    width: 100px;
+    float: right;
+    margin-top: -60px;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+    position: absolute;
+    z-index: 4;
+    bottom: -40px;
+    left: 830px;
+
+}
+
+.row1 h4{
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    padding:15px 32px 0px 42px;
+    font-weight: 600;
+}
+
+.row1 h6{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 40px;
+    font-weight: 200;
+}

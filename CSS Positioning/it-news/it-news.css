@@ -1,0 +1,45 @@
+body{
+    width: 610px;
+    margin: 0 auto;
+
+}
+
+article{
+    width: 280px;
+    height: 270px;
+    border: solid #a5b2b3;
+    float: left;
+    font-family: Verdana, Arial, Helvetica ;
+    margin: 5px;
+
+}
+
+.rows{
+    float: left;
+}
+
+h2 {
+    font-size: 13px;
+    line-height: 0px;
+}
+
+
+
+
+time{
+    font-size: 10px;
+    color: #a5b2b3;
+    float: left;
+}
+
+p{
+    font-size: 13px;
+    margin-top: 28px;
+}
+
+img{
+    float: left;
+    margin-top: 4px;
+    margin-left: -71px;
+    margin-top: 20px;
+}

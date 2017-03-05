@@ -1,0 +1,76 @@
+@font-face {
+    font-family: Lemon-Regular;
+    src: url(fonts/Lemon-Regular.ttf);
+}
+
+body{
+    font-family:Lemon-Regular, Arial;
+    background-color: #602C74;
+}
+
+main{
+    width: 900px;
+    background-color: #FFAE31;
+    border-radius: 30px;
+    margin: 0 auto;
+    height: 445px;
+}
+
+img{
+    width: 190px;
+    height: 170px;
+    border-radius: 50%;
+    /* text-align: center; */
+    margin-left: 10px;
+    border: solid #826B73;
+
+
+}
+
+article{
+    display: inline-block;
+    width: 220px;
+    background-color: #5F2055;
+    height: 350px;
+    margin-left: 54px;
+    height: 365px;
+    font-size: 15px;
+    border-radius: 20px 0 20px 0;
+}
+
+h1{
+    font-family: Lemon-Regular;
+    text-align: center;
+    font-size: 24px;
+    text-transform: capitalize;
+    padding-top: 20px;
+}
+.prise{
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: Lemon-Regular;
+    text-align: center;
+    line-height: 5px;
+}
+
+.Guarantee{
+    color: #FFAE31;
+    font-size: 16px;
+    line-height: 1px;
+    text-align: center;
+}
+
+p{
+    color: #fff;
+    line-height: 2px;
+    margin-left: 10px;
+}
+
+button{
+    color: #9852FC;
+    font-family: Lemon-Regular;
+    width: 190px;
+    margin-left: 14px;
+    border-radius: 20px;
+    margin-top: 10px;
+}

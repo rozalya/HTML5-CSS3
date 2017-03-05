@@ -1,0 +1,32 @@
+@import url("https://db.onlinewebfonts.com/c/144003a4a173013fbc704e393ee76265?family=Calibri+Light");
+
+main{
+    border: solid #a5b2b3;
+    width: 890px;
+    height: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: Calibri Light, Verdana, sans-serif;
+
+}
+
+article{
+    display: inline-block;
+    float: left;
+    width: 200px;
+    height: 500px;
+    margin-right: 15px;
+}
+
+img{
+    width: 200px;
+    height: 123px;
+}
+
+article h1{
+    text-align: center;
+}
+
+img:hover{
+    opacity: 0.4;
+}
