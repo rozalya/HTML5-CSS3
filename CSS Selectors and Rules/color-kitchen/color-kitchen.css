@@ -1,0 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Sansita");
+
+main{
+    background-image: url("CSS Selectors and Rules/bg.jpg");
+    background-size: cover;
+}

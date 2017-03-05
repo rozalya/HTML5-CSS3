@@ -1,0 +1,137 @@
+@import url("https://fonts.google.com/selection?selection.family=Lato");
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+body{
+    font-family: "Lato", Serif;
+    font-size: 14px;
+    background-image: url("images/dark-wood.jpg");
+    background-size: cover;
+}
+
+header{
+    padding: 50px;
+    background-image: url("images/header-page.jpg");
+    background-size: cover;
+    padding: 50px;
+    margin:0 230px 0 230px;
+
+}
+header>h1{
+    font-family: "Lato", serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: right;
+
+}
+nav{
+    border-top: solid;
+    border-bottom: solid;
+    padding: 15px;
+    background-image: url("images/header-page.jpg");
+   background-size: 170%;
+    margin:0 230px 0 230px;
+}
+
+nav>ul>li{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 23px;
+    padding-right: 20px;
+}
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav ul li:first-of-type >a {
+    color: #000000;
+    text-decoration: none;
+    padding-left: 20px;
+}
+main{
+    background: #ffffff;
+    margin:0 230px 0 230px;
+    padding-bottom: 230px;
+}
+
+
+article figure {
+    float: left;
+    padding: 5px 5px 40px 5px;
+    border: solid;
+    border-color: #737373;
+}
+article{
+    clear: left;
+}
+
+
+.courses article:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+aside{
+    float: right;
+    border: solid;
+    margin: -500px 20px 0 0;
+}
+
+div, p {
+
+    margin: 0 300px 0 320px;
+    border: solid;
+}
+
+
+
